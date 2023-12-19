@@ -6,6 +6,63 @@
   "type" : "Manifest",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
   "items" : [ {
+    "width" : 19168,
+    "id" : "https://heyhussain.github.io/Japan/images/20160905_140054/canvas/",
+    "label" : {
+      "none" : [ "20160905_140054" ]
+    },
+    "type" : "Canvas",
+    "items" : [ {
+      "id" : "https://heyhussain.github.io/Japan/images/20160905_140054/AnnoPage/",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "motivation" : "Painting",
+        "id" : "https://heyhussain.github.io/Japan/images/20160905_140054/annotation/",
+        "type" : "Annotation",
+        "body" : {
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 599,
+              "height" : 91
+            }, {
+              "width" : 1198,
+              "height" : 181
+            }, {
+              "width" : 2396,
+              "height" : 362
+            }, {
+              "width" : 4792,
+              "height" : 724
+            }, {
+              "width" : 9584,
+              "height" : 1448
+            }, {
+              "width" : 19168,
+              "height" : 2896
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 19168,
+            "@id" : "https://heyhussain.github.io/Japan/images/20160905_140054",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2896
+          } ],
+          "format" : "image/jpeg",
+          "width" : 19168,
+          "id" : "https://heyhussain.github.io/Japan/images/20160905_140054/full/full/0/default.jpg",
+          "type" : "Image",
+          "height" : 2896
+        },
+        "target" : "https://heyhussain.github.io/Japan/images/20160905_140054/canvas/"
+      } ]
+    } ],
+    "height" : 2896
+  }, {
     "width" : 8688,
     "id" : "https://heyhussain.github.io/Japan/images/Kyoto/canvas/",
     "label" : {
