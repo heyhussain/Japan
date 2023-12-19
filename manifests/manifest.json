@@ -1,340 +1,268 @@
 {
-  "@context": "http://iiif.io/api/presentation/2/context.json",
-  "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7",
-  "@type": "sc:Manifest",
-  "label": "Blank Manifest",
-  "sequences": [
-    {
-      "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/sequence0",
-      "@type": "sc:Sequence",
-      "canvases": [
-        {
-          "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/268edde3-bba3-4cd6-84ad-9dfcb325eac6",
-          "@type": "sc:Canvas",
-          "height": 2944,
-          "width": 7776,
-          "label": "Kinkakuji, Kyoto",
-          "images": [
-            {
-              "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/60515038-6d06-4f77-b564-2a6c1fd7760f",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": {
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/268edde3-bba3-4cd6-84ad-9dfcb325eac6",
-                  "type": "Canvas"
-                }
-              },
-              "resource": {
-                "@id": "https://heyhussain.github.io/Japan/images/20140828_142454/full/max/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 2944,
-                "width": 7776,
-                "service": {
-                  "tiles": [
-                    {
-                      "scaleFactors": [
-                        32,
-                        16,
-                        8,
-                        4,
-                        2,
-                        1
-                      ],
-                      "width": 1024,
-                      "height": 1024
-                    }
-                  ],
-                  "protocol": "http://iiif.io/api/image",
-                  "sizes": [
-                    {
-                      "width": 243,
-                      "height": 92
-                    },
-                    {
-                      "width": 486,
-                      "height": 184
-                    },
-                    {
-                      "width": 972,
-                      "height": 368
-                    },
-                    {
-                      "width": 1944,
-                      "height": 736
-                    },
-                    {
-                      "width": 3888,
-                      "height": 1472
-                    },
-                    {
-                      "width": 7776,
-                      "height": 2944
-                    }
-                  ],
-                  "profile": "http://iiif.io/api/image/2/level0.json",
-                  "width": 7776,
-                  "@id": "https://heyhussain.github.io/Japan/images/20140828_142454",
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "height": 2944,
-                  "id": "https://heyhussain.github.io/Japan/images/20140828_142454"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/7fbd9127-9bd2-41b5-86bf-48442befafb8",
-          "@type": "sc:Canvas",
-          "height": 3040,
-          "width": 7760,
-          "label": "View from Tokyo Metropolitan Government Building, Shinjuku, Tokyo, Japan",
-          "metadata": [
-            {
-              "label": "",
-              "value": ""
-            }
-          ],
-          "description": "View of Tokyo from Tokyo Metropolitan Government Building, Shinjuku",
-          "images": [
-            {
-              "@id": "http://9c8c40bc-18e7-4add-9731-fbd0cd1a31e7",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": {
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/7fbd9127-9bd2-41b5-86bf-48442befafb8",
-                  "type": "Canvas"
-                }
-              },
-              "resource": {
-                "@id": "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated/full/full/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 3040,
-                "width": 7760,
-                "service": {
-                  "@id": "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated",
-                  "profile": "level2",
-                  "id": "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated",
-                  "width": 7760,
-                  "height": 3040
-                }
-              }
-            }
-          ]
-        },
-        {
-          "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/4d92434f-ff47-486b-b3ea-87ec48ca988d",
-          "@type": "sc:Canvas",
-          "height": 3104,
-          "width": 8688,
-          "label": "View of Kyoto from Fushimi Inari-taisha",
-          "images": [
-            {
-              "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/c9b307b4-eee0-4c4a-a1b3-d84024890a5e",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": {
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/4d92434f-ff47-486b-b3ea-87ec48ca988d",
-                  "type": "Canvas"
-                }
-              },
-              "resource": {
-                "@id": "https://heyhussain.github.io/Japan/images/Kyoto/full/max/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 3104,
-                "width": 8688,
-                "service": {
-                  "tiles": [
-                    {
-                      "scaleFactors": [
-                        32,
-                        16,
-                        8,
-                        4,
-                        2,
-                        1
-                      ],
-                      "width": 1024,
-                      "height": 1024
-                    }
-                  ],
-                  "protocol": "http://iiif.io/api/image",
-                  "sizes": [
-                    {
-                      "width": 272,
-                      "height": 97
-                    },
-                    {
-                      "width": 543,
-                      "height": 194
-                    },
-                    {
-                      "width": 1086,
-                      "height": 388
-                    },
-                    {
-                      "width": 2172,
-                      "height": 776
-                    },
-                    {
-                      "width": 4344,
-                      "height": 1552
-                    },
-                    {
-                      "width": 8688,
-                      "height": 3104
-                    }
-                  ],
-                  "profile": "http://iiif.io/api/image/2/level0.json",
-                  "width": 8688,
-                  "@id": "https://heyhussain.github.io/Japan/images/Kyoto",
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "height": 3104,
-                  "id": "https://heyhussain.github.io/Japan/images/Kyoto"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/1dd38c24-ea93-45dc-86dc-941bd281c5f9",
-          "@type": "sc:Canvas",
-          "height": 2896,
-          "width": 19168,
-          "label": "Otagi Nenbutsu-ji, Kyoto",
-          "images": [
-            {
-              "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/c1e7971c-f5b2-4fc3-a64d-bb761328274f",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": {
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/1dd38c24-ea93-45dc-86dc-941bd281c5f9",
-                  "type": "Canvas"
-                }
-              },
-              "resource": {
-                "@id": "https://heyhussain.github.io/Japan/images/20160905_140054/full/max/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 2896,
-                "width": 19168,
-                "service": {
-                  "tiles": [
-                    {
-                      "scaleFactors": [
-                        32,
-                        16,
-                        8,
-                        4,
-                        2,
-                        1
-                      ],
-                      "width": 1024,
-                      "height": 1024
-                    }
-                  ],
-                  "protocol": "http://iiif.io/api/image",
-                  "sizes": [
-                    {
-                      "width": 599,
-                      "height": 91
-                    },
-                    {
-                      "width": 1198,
-                      "height": 181
-                    },
-                    {
-                      "width": 2396,
-                      "height": 362
-                    },
-                    {
-                      "width": 4792,
-                      "height": 724
-                    },
-                    {
-                      "width": 9584,
-                      "height": 1448
-                    },
-                    {
-                      "width": 19168,
-                      "height": 2896
-                    }
-                  ],
-                  "profile": "http://iiif.io/api/image/2/level0.json",
-                  "width": 19168,
-                  "@id": "https://heyhussain.github.io/Japan/images/20160905_140054",
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "height": 2896,
-                  "id": "https://heyhussain.github.io/Japan/images/20160905_140054"
-                }
-              }
-            }
-          ]
-        },
-        {
-          "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/488f1108-aded-4569-b40c-b5878b06d8de",
-          "@type": "sc:Canvas",
-          "height": 3008,
-          "width": 9616,
-          "label": "Koyasan Wakayama",
-          "images": [
-            {
-              "@id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/02ed8a7d-73f0-4512-8521-d32119941948",
-              "@type": "oa:Annotation",
-              "motivation": "sc:painting",
-              "on": {
-                "type": "SpecificResource",
-                "source": {
-                  "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/488f1108-aded-4569-b40c-b5878b06d8de",
-                  "type": "Canvas"
-                }
-              },
-              "resource": {
-                "@id": "https://iiif.archivelab.org/iiif/20140905-101100/full/max/0/default.jpg",
-                "@type": "dctypes:Image",
-                "format": "image/jpeg",
-                "height": 3008,
-                "width": 9616,
-                "service": {
-                  "@context": "http://iiif.io/api/image/2/context.json",
-                  "@id": "https://iiif.archivelab.org/iiif/20140905-101100",
-                  "height": 3008,
-                  "profile": [
-                    "http://iiif.io/api/image/2/level2.json"
-                  ],
-                  "protocol": "http://iiif.io/api/image",
-                  "tiles": [
-                    {
-                      "scaleFactors": [
-                        1,
-                        2,
-                        4,
-                        8,
-                        16
-                      ],
-                      "width": 256,
-                      "height": 256
-                    }
-                  ],
-                  "width": 9616,
-                  "id": "https://iiif.archivelab.org/iiif/20140905-101100"
-                }
-              }
-            }
-          ]
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://heyhussain.github.io/Japan/manifests/manifestv3.json",
+  "type" : "Manifest",
+  "label" : {
+    "en" : [ "Blank Manifest" ]
+  },
+  "items" : [ {
+    "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/268edde3-bba3-4cd6-84ad-9dfcb325eac6",
+    "type" : "Canvas",
+    "height" : 2944,
+    "width" : 7776,
+    "label" : {
+      "en" : [ "Kinkakuji, Kyoto" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/268edde3-bba3-4cd6-84ad-9dfcb325eac6/annotation-page/4d8db41e-d903-4e92-aebc-e0e7b5e5cdc0",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/60515038-6d06-4f77-b564-2a6c1fd7760f",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/268edde3-bba3-4cd6-84ad-9dfcb325eac6",
+        "body" : {
+          "id" : "https://heyhussain.github.io/Japan/images/20140828_142454/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2944,
+          "width" : 7776,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 243,
+              "height" : 92
+            }, {
+              "width" : 486,
+              "height" : 184
+            }, {
+              "width" : 972,
+              "height" : 368
+            }, {
+              "width" : 1944,
+              "height" : 736
+            }, {
+              "width" : 3888,
+              "height" : 1472
+            }, {
+              "width" : 7776,
+              "height" : 2944
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 7776,
+            "@id" : "https://heyhussain.github.io/Japan/images/20140828_142454",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2944,
+            "id" : "https://heyhussain.github.io/Japan/images/20140828_142454"
+          } ]
         }
-      ]
-    }
-  ],
-  "structures": []
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/7fbd9127-9bd2-41b5-86bf-48442befafb8",
+    "type" : "Canvas",
+    "height" : 3040,
+    "width" : 7760,
+    "behavior" : [ "non-paged" ],
+    "label" : {
+      "en" : [ "View from Tokyo Metropolitan Government Building, Shinjuku, Tokyo, Japan" ]
+    },
+    "metadata" : [ {
+      "label" : {
+        "en" : [ "" ]
+      },
+      "value" : {
+        "en" : [ "" ]
+      }
+    } ],
+    "summary" : {
+      "en" : [ "View of Tokyo from Tokyo Metropolitan Government Building, Shinjuku" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/7fbd9127-9bd2-41b5-86bf-48442befafb8/annotation-page/f1f81d01-dbfc-428c-85b4-c1c02c83471c",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "http://9c8c40bc-18e7-4add-9731-fbd0cd1a31e7",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/7fbd9127-9bd2-41b5-86bf-48442befafb8",
+        "@context" : "http://iiif.io/api/presentation/3/context.json",
+        "body" : {
+          "id" : "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated/full/full/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3040,
+          "width" : 7760,
+          "service" : [ {
+            "@id" : "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated",
+            "@type" : "ImageService2",
+            "profile" : "level2",
+            "id" : "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated",
+            "width" : 7760,
+            "height" : 3040
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/4d92434f-ff47-486b-b3ea-87ec48ca988d",
+    "type" : "Canvas",
+    "height" : 3104,
+    "width" : 8688,
+    "label" : {
+      "en" : [ "View of Kyoto from Fushimi Inari-taisha" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/4d92434f-ff47-486b-b3ea-87ec48ca988d/annotation-page/3b9a0b09-4115-438e-a6bc-0b0ba7a87c7a",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/c9b307b4-eee0-4c4a-a1b3-d84024890a5e",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/4d92434f-ff47-486b-b3ea-87ec48ca988d",
+        "body" : {
+          "id" : "https://heyhussain.github.io/Japan/images/Kyoto/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3104,
+          "width" : 8688,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 272,
+              "height" : 97
+            }, {
+              "width" : 543,
+              "height" : 194
+            }, {
+              "width" : 1086,
+              "height" : 388
+            }, {
+              "width" : 2172,
+              "height" : 776
+            }, {
+              "width" : 4344,
+              "height" : 1552
+            }, {
+              "width" : 8688,
+              "height" : 3104
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 8688,
+            "@id" : "https://heyhussain.github.io/Japan/images/Kyoto",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 3104,
+            "id" : "https://heyhussain.github.io/Japan/images/Kyoto"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/1dd38c24-ea93-45dc-86dc-941bd281c5f9",
+    "type" : "Canvas",
+    "height" : 2896,
+    "width" : 19168,
+    "label" : {
+      "en" : [ "Otagi Nenbutsu-ji, Kyoto" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/1dd38c24-ea93-45dc-86dc-941bd281c5f9/annotation-page/65f83bf6-1c72-44ba-af52-8b7c9befd970",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/c1e7971c-f5b2-4fc3-a64d-bb761328274f",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/1dd38c24-ea93-45dc-86dc-941bd281c5f9",
+        "body" : {
+          "id" : "https://heyhussain.github.io/Japan/images/20160905_140054/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 2896,
+          "width" : 19168,
+          "service" : [ {
+            "tiles" : [ {
+              "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+              "width" : 1024,
+              "height" : 1024
+            } ],
+            "protocol" : "http://iiif.io/api/image",
+            "sizes" : [ {
+              "width" : 599,
+              "height" : 91
+            }, {
+              "width" : 1198,
+              "height" : 181
+            }, {
+              "width" : 2396,
+              "height" : 362
+            }, {
+              "width" : 4792,
+              "height" : 724
+            }, {
+              "width" : 9584,
+              "height" : 1448
+            }, {
+              "width" : 19168,
+              "height" : 2896
+            } ],
+            "profile" : "http://iiif.io/api/image/2/level0.json",
+            "width" : 19168,
+            "@id" : "https://heyhussain.github.io/Japan/images/20160905_140054",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "height" : 2896,
+            "id" : "https://heyhussain.github.io/Japan/images/20160905_140054"
+          } ]
+        }
+      } ]
+    } ]
+  }, {
+    "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/488f1108-aded-4569-b40c-b5878b06d8de",
+    "type" : "Canvas",
+    "height" : 3008,
+    "width" : 9616,
+    "label" : {
+      "en" : [ "Koyasan Wakayama" ]
+    },
+    "items" : [ {
+      "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/488f1108-aded-4569-b40c-b5878b06d8de/annotation-page/32666348-a8a1-4414-a4f6-b60b92c5bfb1",
+      "type" : "AnnotationPage",
+      "items" : [ {
+        "id" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/02ed8a7d-73f0-4512-8521-d32119941948",
+        "type" : "Annotation",
+        "motivation" : "painting",
+        "target" : "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/488f1108-aded-4569-b40c-b5878b06d8de",
+        "body" : {
+          "id" : "https://iiif.archivelab.org/iiif/20140905-101100/full/max/0/default.jpg",
+          "type" : "Image",
+          "format" : "image/jpeg",
+          "height" : 3008,
+          "width" : 9616,
+          "service" : [ {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/20140905-101100",
+            "height" : 3008,
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ],
+            "protocol" : "http://iiif.io/api/image",
+            "tiles" : [ {
+              "scaleFactors" : [ 1, 2, 4, 8, 16 ],
+              "width" : 256,
+              "height" : 256
+            } ],
+            "width" : 9616,
+            "id" : "https://iiif.archivelab.org/iiif/20140905-101100"
+          } ]
+        }
+      } ]
+    } ]
+  } ]
 }
