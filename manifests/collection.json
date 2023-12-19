@@ -1,0 +1,15 @@
+{
+  "id" : "https://heyhussain.github.io/Japan/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in heyhussain/Japan project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "id" : "https://heyhussain.github.io/Japan/manifests/manifest.json",
+    "label" : {
+      "en" : [ "Blank Manifest" ]
+    },
+    "type" : "Manifest"
+  } ]
+}
