@@ -17,5 +17,9 @@
       "en" : [ "Blank Manifest" ]
     },
     "type" : "Manifest"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://heyhussain.github.io/Japan/manifests/manifestv2.json",
+    "label" : "Japan Manifest v2"
   } ]
 }
