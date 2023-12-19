@@ -9,6 +9,89 @@
     },
     "items": [
         {
+            "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/268edde3-bba3-4cd6-84ad-9dfcb325eac6",
+            "type": "Canvas",
+            "height": 2944,
+            "width": 7776,
+            "label": {
+                "en": [
+                    "Kinkakuji, Kyoto"
+                ]
+            },
+            "items": [
+                {
+                    "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/268edde3-bba3-4cd6-84ad-9dfcb325eac6/annotation-page/4d8db41e-d903-4e92-aebc-e0e7b5e5cdc0",
+                    "type": "AnnotationPage",
+                    "items": [
+                        {
+                            "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/60515038-6d06-4f77-b564-2a6c1fd7760f",
+                            "type": "Annotation",
+                            "motivation": "painting",
+                            "target": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/268edde3-bba3-4cd6-84ad-9dfcb325eac6",
+                            "body": {
+                                "id": "https://heyhussain.github.io/Japan/images/20140828_142454/full/max/0/default.jpg",
+                                "type": "Image",
+                                "format": "image/jpeg",
+                                "height": 2944,
+                                "width": 7776,
+                                "service": [
+                                    {
+                                        "tiles": [
+                                            {
+                                                "scaleFactors": [
+                                                    32,
+                                                    16,
+                                                    8,
+                                                    4,
+                                                    2,
+                                                    1
+                                                ],
+                                                "width": 1024,
+                                                "height": 1024
+                                            }
+                                        ],
+                                        "protocol": "http://iiif.io/api/image",
+                                        "sizes": [
+                                            {
+                                                "width": 243,
+                                                "height": 92
+                                            },
+                                            {
+                                                "width": 486,
+                                                "height": 184
+                                            },
+                                            {
+                                                "width": 972,
+                                                "height": 368
+                                            },
+                                            {
+                                                "width": 1944,
+                                                "height": 736
+                                            },
+                                            {
+                                                "width": 3888,
+                                                "height": 1472
+                                            },
+                                            {
+                                                "width": 7776,
+                                                "height": 2944
+                                            }
+                                        ],
+                                        "profile": "http://iiif.io/api/image/2/level0.json",
+                                        "width": 7776,
+                                        "@id": "https://heyhussain.github.io/Japan/images/20140828_142454",
+                                        "@context": "http://iiif.io/api/image/2/context.json",
+                                        "height": 2944,
+                                        "id": "https://heyhussain.github.io/Japan/images/20140828_142454"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
             "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/7fbd9127-9bd2-41b5-86bf-48442befafb8",
             "type": "Canvas",
             "height": 3040,
@@ -65,89 +148,6 @@
                                         "id": "https://heyhussain.github.io/IIIF-workshop/images/20160831_142221_rotated",
                                         "width": 7760,
                                         "height": 3040
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/3c8f21ae-6793-4b0e-9567-34722dc48eb1",
-            "type": "Canvas",
-            "height": 2944,
-            "width": 7776,
-            "label": {
-                "en": [
-                    "Kinkakuji, Golden Pavilion, Kyoto"
-                ]
-            },
-            "items": [
-                {
-                    "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/3c8f21ae-6793-4b0e-9567-34722dc48eb1/annotation-page/e6f4df57-aa0b-447b-b2eb-b5fcf1583bfa",
-                    "type": "AnnotationPage",
-                    "items": [
-                        {
-                            "id": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/annotation/854c2f6f-6f90-4779-adf6-aa369e8ba982",
-                            "type": "Annotation",
-                            "motivation": "painting",
-                            "target": "https://example.org/2ddb0c31-6bb3-4a74-af55-a7942e9ac4a7/canvas/3c8f21ae-6793-4b0e-9567-34722dc48eb1",
-                            "body": {
-                                "id": "https://heyhussain.github.io/Japan/images/20140828_142454/full/max/0/default.jpg",
-                                "type": "Image",
-                                "format": "image/jpeg",
-                                "height": 2944,
-                                "width": 7776,
-                                "service": [
-                                    {
-                                        "tiles": [
-                                            {
-                                                "scaleFactors": [
-                                                    32,
-                                                    16,
-                                                    8,
-                                                    4,
-                                                    2,
-                                                    1
-                                                ],
-                                                "width": 1024,
-                                                "height": 1024
-                                            }
-                                        ],
-                                        "protocol": "http://iiif.io/api/image",
-                                        "sizes": [
-                                            {
-                                                "width": 243,
-                                                "height": 92
-                                            },
-                                            {
-                                                "width": 486,
-                                                "height": 184
-                                            },
-                                            {
-                                                "width": 972,
-                                                "height": 368
-                                            },
-                                            {
-                                                "width": 1944,
-                                                "height": 736
-                                            },
-                                            {
-                                                "width": 3888,
-                                                "height": 1472
-                                            },
-                                            {
-                                                "width": 7776,
-                                                "height": 2944
-                                            }
-                                        ],
-                                        "profile": "http://iiif.io/api/image/2/level0.json",
-                                        "width": 7776,
-                                        "@id": "https://heyhussain.github.io/Japan/images/20140828_142454",
-                                        "@context": "http://iiif.io/api/image/2/context.json",
-                                        "height": 2944,
-                                        "id": "https://heyhussain.github.io/Japan/images/20140828_142454"
                                     }
                                 ]
                             }
