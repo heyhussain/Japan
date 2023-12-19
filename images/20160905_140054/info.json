@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 599,
+    "height" : 91
+  }, {
+    "width" : 1198,
+    "height" : 181
+  }, {
+    "width" : 2396,
+    "height" : 362
+  }, {
+    "width" : 4792,
+    "height" : 724
+  }, {
+    "width" : 9584,
+    "height" : 1448
+  }, {
+    "width" : 19168,
+    "height" : 2896
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 19168,
+  "@id" : "https://heyhussain.github.io/Japan/images/20160905_140054",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 2896
+}
