@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 272,
+    "height" : 97
+  }, {
+    "width" : 543,
+    "height" : 194
+  }, {
+    "width" : 1086,
+    "height" : 388
+  }, {
+    "width" : 2172,
+    "height" : 776
+  }, {
+    "width" : 4344,
+    "height" : 1552
+  }, {
+    "width" : 8688,
+    "height" : 3104
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 8688,
+  "@id" : "https://heyhussain.github.io/Japan/images/Kyoto",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 3104
+}
