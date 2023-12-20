@@ -1,0 +1,109 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Yoyogi Park",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Yoyogi Park</p>"
+    }, {
+      "http://dev.llgc.org.uk/sas/full_text" : "Park",
+      "@type" : "oa:Tag",
+      "chars" : "Park"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/1677863",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-14T11:18:47",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1702552727662",
+    "dcterms:modified" : "2023-12-14T11:48:52",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://heyhussain.github.io/IIIF-workshop/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=4717,1474,2454,366"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4716.53,1670.86215l171.92029,-56.55273l400.39331,-52.02851l334.79215,-27.14531l300.86051,-27.14531l108.58124,-9.04844l13.57265,-20.35898l140.25076,-4.52422l56.55273,33.93164l149.2992,-9.04844l255.61833,2.26211l217.16247,13.57265l171.92029,27.14531l128.94022,22.62109l4.52422,49.7664l-128.94022,29.40742l-230.73513,88.22225l-147.03709,42.98007l-300.86051,9.04844l-219.42458,13.57265l-285.02575,20.35898l-260.14255,22.62109l-262.40465,-9.04844l-137.98865,-45.24218l-237.52145,-79.17382l-226.21091,-2.26211l-15.83476,-29.40742l-2.26211,-9.04844z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"rough_path_e6bd383e-583e-480b-b9b3-af5ff2b8dd2a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff0000\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://0e58078a-1a45-4db8-9897-9bd977285c67"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Tokyo Skytree",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Tokyo Skytree</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/1677863",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-14T11:17:08",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1702552628300",
+    "dcterms:modified" : "2023-12-14T11:17:08",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://heyhussain.github.io/IIIF-workshop/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1542,1261,67,194"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1542.21584,1261.18362h33.72727v0h33.72727v96.90909v96.90909h-33.72727h-33.72727v-96.90909z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_5809d3e6-a147-4ca9-8f67-7383c61e4f82\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff0000\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://0e58078a-1a45-4db8-9897-9bd977285c67"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Tokyo Tower",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Tokyo Tower</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/1677863",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-12-14T11:20:06",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1702552806858",
+    "dcterms:modified" : "2023-12-14T11:20:06",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://heyhussain.github.io/IIIF-workshop/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=4053,1226,70,206"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4053.44737,1225.87047h35.09091v0h35.09091v102.81818v102.81818h-35.09091h-35.09091v-102.81818z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_9adf179c-2e48-4489-bb3c-030cd5d23e07\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff0000\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://0e58078a-1a45-4db8-9897-9bd977285c67"
+    } ]
+  } ],
+  "@id" : "https://heyhussain.github.io/Japan/annotations/tokyoannotannotations.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
