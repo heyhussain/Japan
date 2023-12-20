@@ -1,0 +1,7 @@
+{
+  "@type" : "sc:Layer",
+  "otherContent" : [ "https://heyhussain.github.io/Japan/annotations/tokyoannotannotations.json" ],
+  "@id" : "https://heyhussain.github.io/Japan/annotations/collection.json",
+  "label" : "All annotations loaded in heyhussain/Japan project",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
