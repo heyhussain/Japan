@@ -45,45 +45,86 @@
       "height" : 2500,
       "width" : 1766,
       "images" : [ {
-"@id": "https://framemark.vam.ac.uk/collections/O101056",
-"@type": "oa:Annotation",
-"motivation": "sc:painting",
-"resource": {
-	"@id": "https://framemark.vam.ac.uk/collections/2023NL7222/full/312,232/0/default.jpg",
-	"@type": "dctypes:Image",
-	"format": "image/jpeg",
-	"service": {
-		"@context": "http://iiif.io/api/image/2/context.json",
-		"@id": "https://framemark.vam.ac.uk/collections/2023NL7222",
-		"profile": [
-			"http://iiif.io/api/image/2/level2.json"
-		]
+	"@id": "https://framemark.vam.ac.uk/collections/O101056",
+	"@type": "oa:Annotation",
+	"motivation": "sc:painting",
+	"resource": {
+		"@id": "https://framemark.vam.ac.uk/collections/O101056/full/312,232/0/default.jpg",
+		"@type": "dctypes:Image",
+		"format": "image/jpeg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"@id": "https://framemark.vam.ac.uk/collections/O101056",
+			"profile": [
+				"http://iiif.io/api/image/2/level2.json"
+			]
+		},
+		"height": 1859,
+		"width": 2500
 	},
-	"height": 1859,
-	"width": 2500
-},
-"on": "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=1338,903,166,285"
-},
-{
-"@id": "https://framemark.vam.ac.uk/collections/O1119754",
-"@type": "oa:Annotation",
-"motivation": "sc:painting",
-"resource": {
-	"@id": "https://framemark.vam.ac.uk/collections/2006AE7664/full/312,232/0/default.jpg",
-	"@type": "dctypes:Image",
-	"format": "image/jpeg",
-	"service": {
-		"@context": "http://iiif.io/api/image/2/context.json",
-		"@id": "https://framemark.vam.ac.uk/collections/2006AE7664",
-		"profile": [
-			"http://iiif.io/api/image/2/level2.json"
-		]
+	"on": "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=1338,903,166,285"
 	},
-	"height": 1859,
-	"width": 2500
-},
-"on": "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=333,733,166,285"
-},{
+	{
+	"@id": "https://framemark.vam.ac.uk/collections/O1266956",
+	"@type": "oa:Annotation",
+	"motivation": "sc:painting",
+	"resource": {
+		"@id": "https://framemark.vam.ac.uk/collections/2014HA2571/full/312,232/0/default.jpg",
+		"@type": "dctypes:Image",
+		"format": "image/jpeg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"@id": "https://framemark.vam.ac.uk/collections/2014HA2571",
+			"profile": [
+				"http://iiif.io/api/image/2/level2.json"
+			]
+		},
+		"height": 1859,
+		"width": 2500
+	},
+	"on": "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=517,1223,166,285"
+	},
+	{
+	"@id": "https://collections.vam.ac.uk/item/O1149013/photographic-negative-hammond-harry/",
+	"@type": "oa:Annotation",
+	"motivation": "sc:painting",
+	"resource": {
+		"@id": "https://framemark.vam.ac.uk/collections/2006BA3897/full/312,232/0/default.jpg",
+		"@type": "dctypes:Image",
+		"format": "image/jpeg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"@id": "https://framemark.vam.ac.uk/collections/2006BA3897",
+			"profile": [
+				"http://iiif.io/api/image/2/level2.json"
+			]
+		},
+		"height": 1859,
+		"width": 2500
+	},
+	"on": "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=1148,1241,166,285"
+	},
+	{
+	"@id": "https://framemark.vam.ac.uk/collections/O1119754",
+	"@type": "oa:Annotation",
+	"motivation": "sc:painting",
+	"resource": {
+		"@id": "https://framemark.vam.ac.uk/collections/O1119754/full/312,232/0/default.jpg",
+		"@type": "dctypes:Image",
+		"format": "image/jpeg",
+		"service": {
+			"@context": "http://iiif.io/api/image/2/context.json",
+			"@id": "https://framemark.vam.ac.uk/collections/O1119754",
+			"profile": [
+				"http://iiif.io/api/image/2/level2.json"
+			]
+		},
+		"height": 1859,
+		"width": 2500
+	},
+	"on": "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=333,733,166,285"
+	},
+	{
         "@id" : "https://iiif.vam.ac.uk/collections/O89587/canvas/c0/annotation/a0",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
