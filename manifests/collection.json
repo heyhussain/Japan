@@ -21,5 +21,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://heyhussain.github.io/Japan/manifests/manifestv2.json",
     "label" : "Japan Manifest v2"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://heyhussain.github.io/Japan/manifests/xmascard.json",
+    "label" : null
   } ]
 }
