@@ -45,23 +45,45 @@
       "height" : 2500,
       "width" : 1766,
       "images" : [ {
-        "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336",
-        "@type" : "oa:Annotation",
-        "motivation" : "sc:painting",
-        "resource" : {
-          "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336/full/312,232/0/default.jpg",
-          "@type" : "dctypes:Image",
-          "format" : "image/jpeg",
-          "service" : {
-            "@context" : "http://iiif.io/api/image/2/context.json",
-            "@id" : "https://framemark.vam.ac.uk/collections/2009BX5336",
-            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
-          },
-          "height" : 1859,
-          "width" : 2500
-        },
-        "on" : "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=100,100,600,400"
-      }, {
+"@id": "https://framemark.vam.ac.uk/collections/O101056",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"resource": {
+	"@id": "https://framemark.vam.ac.uk/collections/O101056/full/312,232/0/default.jpg",
+	"@type": "dctypes:Image",
+	"format": "image/jpeg",
+	"service": {
+		"@context": "http://iiif.io/api/image/2/context.json",
+		"@id": "https://framemark.vam.ac.uk/collections/O101056",
+		"profile": [
+			"http://iiif.io/api/image/2/level2.json"
+		]
+	},
+	"height": 1859,
+	"width": 2500
+},
+"on": "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=1338,903,166,285"
+},
+{
+"@id": "https://framemark.vam.ac.uk/collections/O1119754",
+"@type": "oa:Annotation",
+"motivation": "sc:painting",
+"resource": {
+	"@id": "https://framemark.vam.ac.uk/collections/O1119754/full/312,232/0/default.jpg",
+	"@type": "dctypes:Image",
+	"format": "image/jpeg",
+	"service": {
+		"@context": "http://iiif.io/api/image/2/context.json",
+		"@id": "https://framemark.vam.ac.uk/collections/O1119754",
+		"profile": [
+			"http://iiif.io/api/image/2/level2.json"
+		]
+	},
+	"height": 1859,
+	"width": 2500
+},
+"on": "https://iiif.vam.ac.uk/collections/O89587/canvas/c0#xywh=333,733,166,285"
+},{
         "@id" : "https://iiif.vam.ac.uk/collections/O89587/canvas/c0/annotation/a0",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
